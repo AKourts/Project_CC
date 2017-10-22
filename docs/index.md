@@ -1,6 +1,6 @@
-#**Project in Cloud Computing**
+# **Project in Cloud Computing**
 
-#Description of the problem
+# Description of the problem
 
 Nowadays, knowing at least one foreign language is a must-have. However, there are people who do not know a foreign language because of various reasons:
 
@@ -10,11 +10,11 @@ Nowadays, knowing at least one foreign language is a must-have. However, there a
 
 This application is going to solve this problem once and forever.
 
-#Solution
+# Solution
 
 A fun application will help people around the world learn the basics of a new language by providing information like simple everyday phrases, a dictionary etc. 
 
-#Architecture
+# Architecture
 
 - The solution will be based in microservices architecture.
 - A NoSql DB will be used for this purpose.
@@ -22,13 +22,13 @@ A fun application will help people around the world learn the basics of a new la
 - Flask is the selected framework.
 - A public REST-API will be created.
 
-#Plan
+# Plan
 
 - Milestone 2: Provisioning of VM.
 - Milestone 3: Orchestration of VM.
 - Milestone 4: Use of containers.
 - Milestone 5: Combination of the virtual infrastucture to deploy a concrete application.
 
-#License
+# License
 
-This project will be released under the license [https://github.com/AKourts/Project_CC/blob/master/LICENSE] 
+This project will be released under the license [GNU_GLP_V3](https://github.com/AKourts/Project_CC/blob/master/LICENSE)

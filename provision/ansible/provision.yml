@@ -1,0 +1,17 @@
+---
+- hosts: azure
+  user: sandra
+  sudo: yes
+  tasks:
+        - name: Update emacs
+          apt: pkg=emacs state=present
+
+        - name: Install python 2.7
+          apt: pkg=python2.7 state=present
+
+        - name: Install Python Pip
+          apt: pkg=python-pip state=present
+
+        - name: Install git
+          apt: pkg=git state=present
+

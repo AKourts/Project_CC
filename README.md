@@ -27,7 +27,7 @@ There are many tools which can help with the provisioning of VMs: Chef, Ansible,
 
 * [Automation of VM creation.](https://github.com/AKourts/Project_CC/tree/master/automation/README.md) 
 
-The new CLI of Azure was used to create automatically a new VM. This selection was based on learning more things about azure tecnologies and functionalities. Ubuntu 16.04 was selected as an image for the VM as it is an arguably better choice for beginners to work with.
+Via the new CLI of Azure a new VM was created automatically. This selection was based on learning more things about azure tecnologies and functionalities. Ubuntu 16.04 was selected as an image for the VM as it is an arguably better choice for beginners to work with.
 
 Despliegue:40.68.116.145
 

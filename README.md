@@ -41,7 +41,7 @@ Vagrant is the selected software for the orchestration of more than one virtual 
 
 One of the positive aspects of Vagrant is that provides a single config file to set multiple virtual machines up, enabling to launch all of them with one command. Also, there's a large number of boxes available at sites such as http://vagrantbox.es which is really helpful because anyone can try various OSes or distributions, applying the same provisioning to set up similar environments.
 
-Despliegue Vagrant: 13.95.71.186
+Despliegue Vagrant:13.95.71.186
 
 * Use of containers.
 * Combination of the virtual infrastucture to deploy a concrete application.

@@ -31,7 +31,7 @@ Via the new CLI of Azure a new VM was created automatically. This selection was 
 
 Despliegue:40.68.116.145
 
-* [Orchestration of VM.](https://github.com/AKourts/Project_CC/tree/master/orchestration/README.md)
+* [Orchestration of VM.](https://github.com/AKourts/Project_CC/tree/master/orquestacion/README.md)
 
 Vagrant is the selected software for the orchestration of more than one virtual machines. It is used to set up one or more virtual machines by:
 

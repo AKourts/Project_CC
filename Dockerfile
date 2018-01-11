@@ -1,7 +1,7 @@
 FROM alpine:3.3
 
 RUN apk update && apk upgrade
-  && pip3 install flask
+RUN pip3 install flask
 
 WORKDIR /app_service
   

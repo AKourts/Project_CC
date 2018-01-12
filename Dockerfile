@@ -6,7 +6,7 @@ RUN apk add --update python py-pip
 #Install app dependencies
 RUN pip install flask
   
-COPY service.py contenedores/service.py
+COPY contenedores/service.py service.py
 
 EXPOSE 8000
 

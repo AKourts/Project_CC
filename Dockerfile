@@ -5,9 +5,11 @@ RUN apk add --update python py-pip
 
 #Install app dependencies
 RUN pip install flask
+
+WORKDIR /app
   
-COPY contenedores/service.py service.py
+COPY contenedores/service.py /app
 
-EXPOSE 80
+ENTRYPOINT ["python"]
+CMD ["service.py"]
 
-CMD ["python", "service.py"]

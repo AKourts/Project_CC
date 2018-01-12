@@ -8,6 +8,6 @@ RUN pip install flask
   
 COPY contenedores/service.py service.py
 
-EXPOSE 8000
+EXPOSE 80
 
-CMD ["python", "service.py", "-p 8000"]
+CMD ["python", "service.py"]

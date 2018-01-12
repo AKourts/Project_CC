@@ -1,13 +1,13 @@
 FROM alpine:3.3
 
-RUN apk update && apk upgrade
+#Update
+RUN apk add --update python py-pip
+
+#Install app dependencies
 RUN pip install flask
-
-WORKDIR /app_service
   
-COPY contenedores/service.py /app_service
+COPY contenedores/service.py
 
-ENTRYPOINT ["python"]
-CMD ["service.py"]
+EXPOSE 8000
 
-EXPOSE 22 80
+CMD ["python", "service.py", "-p 8000"]

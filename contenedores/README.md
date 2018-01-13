@@ -38,6 +38,6 @@ az webapp config appsettings set -g dockerGroup -n appservicesandra --settings P
 ```
 Here is the desirable result:
 
-(https://github.com/AKourts/Project_CC/tree/master/contenedores/ok.png)
+![ok](ok.png)
 
 

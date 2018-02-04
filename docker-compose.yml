@@ -1,0 +1,15 @@
+version: '3'
+services:
+  flask:
+      build: ./compose
+      command: python -u app.py
+      volumes:
+        - .:/code
+      links:
+        - datastore
+      ports:
+        - "5000:5000"
+  datastore:
+      image: mongo:3.6.2
+      ports:
+        - "27017:27017"

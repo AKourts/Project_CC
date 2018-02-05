@@ -52,3 +52,9 @@ Contenedor:https://appservicesandra.azurewebsites.net
 Dockerhub:https://hub.docker.com/r/akourts/project_cc
 
 * Combination of the virtual infrastucture to deploy a concrete application.
+
+Using the flask framework, a service in python was created which enables adding and displaying new words. The application is addressed to spanish people, allowing to store a spanish word and its translation in english. So, basically it serves like a personnal dictionary where the user can store the new words that learns every day.
+
+The combination of all the infrastucture was acomplished with Docker Compose. Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. Here, it is used to create two containers, one for the database and one for the api.
+
+Hito6:http://akourtsdns.eastus.cloudapp.azure.com/

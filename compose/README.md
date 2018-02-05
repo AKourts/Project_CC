@@ -1,10 +1,10 @@
-With Docker Compose were created two containers, one for the database and one for the api.
+Two containers were created by Docker Compose: one for the database and one for the api.
 
 For the api container was used the image of Alpine. The reason is because Alpine is a lighter Linux distribution compared for example to the Ubuntu Docker image. Using the lighter image provides faster build times, because we are only building the dependencies our application needs. 
 
-For the database container mongo's image was selected for many reasons. Mongo is a NoSQL db, it's free, open source, fast and easy to use.Also, it's the most popular NoSQL database so it is a good oportunity to familiarize with this software.
+For the database container mongo's image was selected for many reasons. Mongo is a NoSQL db, it's free, open source, fast and easy to use. Also, it's the most popular NoSQL database so it is a good oportunity to familiarize with this software.
 
-The selected framework for python is Flask due to the many advantages that provides. It is extremely easy to build a simple web app in a single python file. Also, it gives developers a lot of flexibility in how they develop their web applications.
+The selected framework for python is Flask due to the many advantages that provides. It is extremely easy to build a simple web app in a single python file. Also, it gives us a lot of flexibility in how we develop our web applications.
 
 So, using the flask framework, a service in python was created to add new words and to display them after insertion.
 
@@ -17,7 +17,7 @@ Firstly, everything was tested locally to ensure that everything works well toge
 ```
 sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 ```
-3)Verify that the installation was successfull.
+3) Verify that the installation was successfull.
 
 ```
 docker-compose --version
